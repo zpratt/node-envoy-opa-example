@@ -1,0 +1,13 @@
+syntax = 'proto3';
+
+message CheckRequest {
+  string name = 1;
+}
+
+message CheckResponse {
+  string status = 1;
+}
+
+service Health {
+  rpc Check (CheckRequest) returns (CheckResponse) {}
+}

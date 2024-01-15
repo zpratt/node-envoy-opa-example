@@ -1,0 +1,30 @@
+{
+  "name": "node-envoy-opa-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach Pratt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zpratt/node-envoy-opa-example.git"
+  },
+  "keywords": [
+    "node",
+    "envoy",
+    "opa",
+    "example"
+  ],
+  "bugs": {
+    "url": "https://github.com/zpratt/node-envoy-opa-example/issues"
+  },
+  "homepage": "https://github.com/zpratt/node-envoy-opa-example#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "1.9.13",
+    "@grpc/proto-loader": "0.7.10"
+  },
+  "type": "module"
+}
