@@ -22,9 +22,8 @@
     "url": "https://github.com/zpratt/node-envoy-opa-example/issues"
   },
   "homepage": "https://github.com/zpratt/node-envoy-opa-example#readme",
+  "type": "module",
   "dependencies": {
-    "@grpc/grpc-js": "1.9.13",
-    "@grpc/proto-loader": "0.7.10"
-  },
-  "type": "module"
+    "fastify": "4.25.2"
+  }
 }
